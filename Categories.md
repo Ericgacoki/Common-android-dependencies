@@ -20,5 +20,10 @@ dependencies {
   annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
 }
 
-//Usage
+//Usage (I'm assuming you're using Kotlin)
+
+GlideApp
+  .with(this)
+  .load("https://www.shutterstock.com/image-photo/kiev-ukraine-may-26-2015-android-283385381")
+  .into(imageView)
 

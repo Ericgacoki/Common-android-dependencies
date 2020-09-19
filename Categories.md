@@ -13,7 +13,12 @@ repositories {
   google()
 }
 
-// add glide repository
+// add glide repository in the gladle module app file
 
+dependencies {
+  implementation 'com.github.bumptech.glide:glide:4.11.0'
+  annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
+}
 
+//Usage
 

@@ -4,7 +4,7 @@
 
 Glide is a powerful image loading tool that has a bunch of advantages over other image loaders. 
 To add Glide in to your project, do the followin
-```Kotlin
+```Kotli
 
 //first ensure you have maven and google repositories.Add the followind to build.gradle file
 
